@@ -1,0 +1,11 @@
+{
+  "dependencies": ["langgraph"],
+  "cors": {
+    "allow_origins": ["https://smith.langchain.com"],
+    "allow_origin_regex": ".*\\.trycloudflare\\.com",
+    "allow_credentials": true
+  },
+  "graphs": {
+    "main": "app.graph:graph"
+  }
+}
